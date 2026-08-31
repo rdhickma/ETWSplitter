@@ -7,7 +7,7 @@ https://www.nuget.org/packages/Microsoft.Diagnostics.Tracing.TraceEvent/
 
 Usage:
 - Split mode:     ETWSplitter.exe <InputFile.etl> <OutputFile.etl> <#_of_Files> [compress]
-- Time range mode: ETWSplitter.exe <InputFile.etl> <OutputFile.etl> -t <timestart>-<timeend> [compress]
+- Time range mode: ETWSplitter.exe <InputFile.etl> <OutputFile.etl> -t <start_time>-<end_time> [compress]
 
 Examples:
 - ETWSplitter.exe input.etl output.etl 4
